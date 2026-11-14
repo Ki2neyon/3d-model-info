@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Info</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>3D Model Info</h1>
+        <p>Practice JavaScript Objects</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Model Details</h2>
+            <p>Click the button to view the model information.</p>
+            <button id="show-button" data-model="cube">Show Model</button>
+
+            <div id="modelInfo" class="hidden">
+
+            <div class="info-row">
+                <strong>Name:</strong>
+                <span id="model-name"></span>
+            </div>
+
+            <div class="info-row">
+                <strong>Color:</strong>
+                <span id="model-color"></span>
+            </div>
+
+            <div class="info-row">
+                <strong>Size:</strong>
+                <span id="model-size"></span>
+            </div>
+
+</div>
+        </section>
+    </main>
+</body>
+</html>
